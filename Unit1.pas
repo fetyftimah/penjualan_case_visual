@@ -53,7 +53,7 @@ begin
   else
   begin
     Hide;
-    Form2.Show;
+    FormMenu.Show;
     MessageDlg('Anda berhasil login',mtInformation,[mbOK],0);
   end;
   end;
