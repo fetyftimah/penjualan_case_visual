@@ -14,9 +14,12 @@ type
     USER1: TMenuItem;
     SUPPLIER1: TMenuItem;
     Kustomer1: TMenuItem;
+    PENDATAAN1: TMenuItem;
+    BARANG1: TMenuItem;
     procedure USER1Click(Sender: TObject);
     procedure SUPPLIER1Click(Sender: TObject);
     procedure Kustomer1Click(Sender: TObject);
+    procedure BARANG1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,7 +31,7 @@ var
 
 implementation
 
-uses User, Supplier, Kustomer;
+uses User, Supplier, Kustomer, Barang;
 
 {$R *.dfm}
 
@@ -45,6 +48,11 @@ end;
 procedure TFormMenu.Kustomer1Click(Sender: TObject);
 begin
 FormKustomer.ShowModal;
+end;
+
+procedure TFormMenu.BARANG1Click(Sender: TObject);
+begin
+FormBarang.ShowModal;
 end;
 
 end.

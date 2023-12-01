@@ -39,5 +39,12 @@ object FormMenu: TFormMenu
         OnClick = Kustomer1Click
       end
     end
+    object PENDATAAN1: TMenuItem
+      Caption = 'PENDATAAN'
+      object BARANG1: TMenuItem
+        Caption = 'BARANG'
+        OnClick = BARANG1Click
+      end
+    end
   end
 end

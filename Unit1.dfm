@@ -1,5 +1,5 @@
 object FormLogin: TFormLogin
-  Left = 192
+  Left = 375
   Top = 152
   Width = 385
   Height = 424
