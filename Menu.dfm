@@ -34,6 +34,10 @@ object FormMenu: TFormMenu
         Caption = 'SUPPLIER'
         OnClick = SUPPLIER1Click
       end
+      object Kustomer1: TMenuItem
+        Caption = 'KUSTOMER'
+        OnClick = Kustomer1Click
+      end
     end
   end
 end
