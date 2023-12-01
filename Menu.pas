@@ -12,7 +12,9 @@ type
     mm1: TMainMenu;
     AKUN1: TMenuItem;
     USER1: TMenuItem;
+    SUPPLIER1: TMenuItem;
     procedure USER1Click(Sender: TObject);
+    procedure SUPPLIER1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,13 +26,18 @@ var
 
 implementation
 
-uses User;
+uses User, Supplier;
 
 {$R *.dfm}
 
 procedure TFormMenu.USER1Click(Sender: TObject);
 begin
 FormUser.ShowModal;
+end;
+
+procedure TFormMenu.SUPPLIER1Click(Sender: TObject);
+begin
+FormSupplier.ShowModal;
 end;
 
 end.
