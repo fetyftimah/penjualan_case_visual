@@ -8,7 +8,8 @@ uses
   Supplier in 'Supplier.pas' {FormSupplier},
   Kustomer in 'Kustomer.pas' {FormKustomer},
   Barang in 'Barang.pas' {FormBarang},
-  Stok in 'Stok.pas' {FormStok};
+  Stok in 'Stok.pas' {FormStok},
+  Pembelian in 'Pembelian.pas' {FormPembelian};
 
 {$R *.res}
 
@@ -21,5 +22,6 @@ begin
   Application.CreateForm(TFormKustomer, FormKustomer);
   Application.CreateForm(TFormBarang, FormBarang);
   Application.CreateForm(TFormStok, FormStok);
+  Application.CreateForm(TFormPembelian, FormPembelian);
   Application.Run;
 end.

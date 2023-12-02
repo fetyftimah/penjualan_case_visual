@@ -49,6 +49,10 @@ object FormMenu: TFormMenu
         Caption = 'STOK'
         OnClick = STOK1Click
       end
+      object PEMBELIAN1: TMenuItem
+        Caption = 'PEMBELIAN'
+        OnClick = PEMBELIAN1Click
+      end
     end
   end
 end
