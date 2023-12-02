@@ -9,7 +9,8 @@ uses
   Kustomer in 'Kustomer.pas' {FormKustomer},
   Barang in 'Barang.pas' {FormBarang},
   Stok in 'Stok.pas' {FormStok},
-  Pembelian in 'Pembelian.pas' {FormPembelian};
+  Pembelian in 'Pembelian.pas' {FormPembelian},
+  Penjualan in 'Penjualan.pas' {FormPenjualan};
 
 {$R *.res}
 
@@ -23,5 +24,6 @@ begin
   Application.CreateForm(TFormBarang, FormBarang);
   Application.CreateForm(TFormStok, FormStok);
   Application.CreateForm(TFormPembelian, FormPembelian);
+  Application.CreateForm(TFormPenjualan, FormPenjualan);
   Application.Run;
 end.

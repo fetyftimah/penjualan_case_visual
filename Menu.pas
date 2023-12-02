@@ -18,12 +18,14 @@ type
     BARANG1: TMenuItem;
     STOK1: TMenuItem;
     PEMBELIAN1: TMenuItem;
+    PENJUALAN1: TMenuItem;
     procedure USER1Click(Sender: TObject);
     procedure SUPPLIER1Click(Sender: TObject);
     procedure Kustomer1Click(Sender: TObject);
     procedure BARANG1Click(Sender: TObject);
     procedure STOK1Click(Sender: TObject);
     procedure PEMBELIAN1Click(Sender: TObject);
+    procedure PENJUALAN1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,7 +37,7 @@ var
 
 implementation
 
-uses User, Supplier, Kustomer, Barang, Stok, Pembelian;
+uses User, Supplier, Kustomer, Barang, Stok, Pembelian, Penjualan;
 
 {$R *.dfm}
 
@@ -67,6 +69,11 @@ end;
 procedure TFormMenu.PEMBELIAN1Click(Sender: TObject);
 begin
 FormPembelian.ShowModal;
+end;
+
+procedure TFormMenu.PENJUALAN1Click(Sender: TObject);
+begin
+FormPenjualan.ShowModal;
 end;
 
 end.
