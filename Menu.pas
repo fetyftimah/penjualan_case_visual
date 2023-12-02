@@ -21,6 +21,7 @@ type
     PENJUALAN1: TMenuItem;
     DETAILJUAL1: TMenuItem;
     DETAILBELI1: TMenuItem;
+    RETURAN1: TMenuItem;
     procedure USER1Click(Sender: TObject);
     procedure SUPPLIER1Click(Sender: TObject);
     procedure Kustomer1Click(Sender: TObject);
@@ -30,6 +31,7 @@ type
     procedure PENJUALAN1Click(Sender: TObject);
     procedure DETAILJUAL1Click(Sender: TObject);
     procedure DETAILBELI1Click(Sender: TObject);
+    procedure RETURAN1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,7 +43,7 @@ var
 
 implementation
 
-uses User, Supplier, Kustomer, Barang, Stok, Pembelian, Penjualan, DetailJual, DetailBeli;
+uses User, Supplier, Kustomer, Barang, Stok, Pembelian, Penjualan, DetailJual, DetailBeli, Return;
 
 {$R *.dfm}
 
@@ -88,6 +90,11 @@ end;
 procedure TFormMenu.DETAILBELI1Click(Sender: TObject);
 begin
 FormDetailBeli.ShowModal;
+end;
+
+procedure TFormMenu.RETURAN1Click(Sender: TObject);
+begin
+FormReturn.ShowModal;
 end;
 
 end.

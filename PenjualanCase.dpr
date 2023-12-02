@@ -12,7 +12,8 @@ uses
   Pembelian in 'Pembelian.pas' {FormPembelian},
   Penjualan in 'Penjualan.pas' {FormPenjualan},
   DetailJual in 'DetailJual.pas' {FormDetailJual},
-  DetailBeli in 'DetailBeli.pas' {FormDetailBeli};
+  DetailBeli in 'DetailBeli.pas' {FormDetailBeli},
+  Return in 'Return.pas' {FormReturn};
 
 {$R *.res}
 
@@ -29,5 +30,6 @@ begin
   Application.CreateForm(TFormPenjualan, FormPenjualan);
   Application.CreateForm(TFormDetailJual, FormDetailJual);
   Application.CreateForm(TFormDetailBeli, FormDetailBeli);
+  Application.CreateForm(TFormReturn, FormReturn);
   Application.Run;
 end.
