@@ -45,6 +45,10 @@ object FormMenu: TFormMenu
         Caption = 'BARANG'
         OnClick = BARANG1Click
       end
+      object STOK1: TMenuItem
+        Caption = 'STOK'
+        OnClick = STOK1Click
+      end
     end
   end
 end

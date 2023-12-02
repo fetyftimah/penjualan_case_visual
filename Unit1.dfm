@@ -1,6 +1,6 @@
 object FormLogin: TFormLogin
-  Left = 375
-  Top = 152
+  Left = 733
+  Top = 163
   Width = 385
   Height = 424
   AutoSize = True
