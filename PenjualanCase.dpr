@@ -10,7 +10,8 @@ uses
   Barang in 'Barang.pas' {FormBarang},
   Stok in 'Stok.pas' {FormStok},
   Pembelian in 'Pembelian.pas' {FormPembelian},
-  Penjualan in 'Penjualan.pas' {FormPenjualan};
+  Penjualan in 'Penjualan.pas' {FormPenjualan},
+  DetailJual in 'DetailJual.pas' {FormDetailJual};
 
 {$R *.res}
 
@@ -25,5 +26,6 @@ begin
   Application.CreateForm(TFormStok, FormStok);
   Application.CreateForm(TFormPembelian, FormPembelian);
   Application.CreateForm(TFormPenjualan, FormPenjualan);
+  Application.CreateForm(TFormDetailJual, FormDetailJual);
   Application.Run;
 end.

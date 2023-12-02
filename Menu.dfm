@@ -38,10 +38,6 @@ object FormMenu: TFormMenu
         Caption = 'KUSTOMER'
         OnClick = Kustomer1Click
       end
-      object PENJUALAN1: TMenuItem
-        Caption = 'PENJUALAN'
-        OnClick = PENJUALAN1Click
-      end
     end
     object PENDATAAN1: TMenuItem
       Caption = 'PENDATAAN'
@@ -56,6 +52,14 @@ object FormMenu: TFormMenu
       object PEMBELIAN1: TMenuItem
         Caption = 'PEMBELIAN'
         OnClick = PEMBELIAN1Click
+      end
+      object PENJUALAN1: TMenuItem
+        Caption = 'PENJUALAN'
+        OnClick = PENJUALAN1Click
+      end
+      object DETAILJUAL1: TMenuItem
+        Caption = 'DETAIL JUAL'
+        OnClick = DETAILJUAL1Click
       end
     end
   end
