@@ -61,6 +61,10 @@ object FormMenu: TFormMenu
         Caption = 'DETAIL JUAL'
         OnClick = DETAILJUAL1Click
       end
+      object DETAILBELI1: TMenuItem
+        Caption = 'DETAIL BELI'
+        OnClick = DETAILBELI1Click
+      end
     end
   end
 end

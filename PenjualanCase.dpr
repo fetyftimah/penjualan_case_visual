@@ -11,7 +11,8 @@ uses
   Stok in 'Stok.pas' {FormStok},
   Pembelian in 'Pembelian.pas' {FormPembelian},
   Penjualan in 'Penjualan.pas' {FormPenjualan},
-  DetailJual in 'DetailJual.pas' {FormDetailJual};
+  DetailJual in 'DetailJual.pas' {FormDetailJual},
+  DetailBeli in 'DetailBeli.pas' {FormDetailBeli};
 
 {$R *.res}
 
@@ -27,5 +28,6 @@ begin
   Application.CreateForm(TFormPembelian, FormPembelian);
   Application.CreateForm(TFormPenjualan, FormPenjualan);
   Application.CreateForm(TFormDetailJual, FormDetailJual);
+  Application.CreateForm(TFormDetailBeli, FormDetailBeli);
   Application.Run;
 end.
